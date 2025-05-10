@@ -1,0 +1,26 @@
+[
+  {
+    "invoice_id": "INV-10001",
+    "client": "Acme Corp",
+    "amount": 1320.50,
+    "currency": "EUR",
+    "status": "paid",
+    "date": "2024-05-01"
+  },
+  {
+    "invoice_id": "INV-10002",
+    "client": "Globex Inc",
+    "amount": 980.00,
+    "currency": "EUR",
+    "status": "pending",
+    "date": "2024-05-03"
+  },
+  {
+    "invoice_id": "INV-10003",
+    "client": "Wayne Enterprises",
+    "amount": 4750.00,
+    "currency": "USD",
+    "status": "overdue",
+    "date": "2024-04-22"
+  }
+]
