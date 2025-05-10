@@ -51,18 +51,27 @@ Servidor disponible en http://127.0.0.1:8000
 ## Endpoints
 http
 GET /data → Lista todos los registros
+
 GET /data/{campo}/{valor} → Búsqueda específica
+
 POST /data → Añade nuevo registro (JSON body)
+
 PUT /data/{campo}/{valor} → Actualiza registro
+
 DELETE /data/{campo}/{valor} → Elimina registro
 
 ## Estructura del proyecto
 autoapi-builder/
 ├── cli.py                # Interfaz CLI
+
 ├── storage.py            # Gestión de JSON
+
 ├── requirements.txt      # Dependencias
+
 ├── examples/             # Datos de ejemplo
+
 │   └── invoices.json      # Ejemplo de JSON (para poder hacer pruebas)
+
 └── README.md             # Este archivo
 
 ## Dependencias principales
