@@ -62,6 +62,7 @@ DELETE /data/{campo}/{valor} → Elimina registro
 
 ## Estructura del proyecto
 autoapi-builder/
+
 ├── cli.py                # Interfaz CLI
 
 ├── storage.py            # Gestión de JSON
